@@ -16,7 +16,7 @@
 #include <ace/managers/blit.h>
 #include <ace/utils/file.h>
 #include <ace/managers/joy.h>
-
+#include "CopperC2P.h"
 
 /*
 docker run --rm \
@@ -114,8 +114,14 @@ void engineGsCreate(void)
 	CombineMapsHigh(heightMap1, colorMap1, mapMed);
 	CombineMapsHigh(heightMap2, colorMap2, mapLow);
 
-	renderingDepth = 16;
-	debugValue=3;
+	// renderingDepth = 16;
+	// debugValue=3;
+	// debugValue2 = 1;
+	// debugValue3 = 10;
+	// debugValue4 = 2;
+	// Recalculate();
+	renderingDepth = 32;
+	debugValue = 1;
 	debugValue2 = 1;
 	debugValue3 = 10;
 	debugValue4 = 2;
@@ -189,69 +195,69 @@ else
 
 
 
-	if(keyCheck(KEY_1) && debugValue!=1)
-	{
-		renderingDepth = 16;
-		debugValue=1;
-		debugValue2 = 1;
-		debugValue3 = 10;
-		debugValue4 = 2;
-		Recalculate();
-	}
-	if(keyCheck(KEY_2) && debugValue!=2)
-	{
-		renderingDepth = 16;
-		debugValue=2;
-		debugValue2 = 1;
-		debugValue3 = 10;
-		debugValue4 = 2;
-		Recalculate();
-	}
-	if(keyCheck(KEY_3) && debugValue!=3)
-	{
-		renderingDepth = 16;
-		debugValue=3;
-		debugValue2 = 1;
-		debugValue3 = 10;
-		debugValue4 = 2;
-		Recalculate();
-	}
-	if(keyCheck(KEY_4) && debugValue!=4)
-	{
-		renderingDepth = 32;
-		debugValue=4;
-		debugValue2 = 2;
-		debugValue3 = 2;
-		debugValue4 = 1;
-		Recalculate();
-	}
-	if(keyCheck(KEY_5) && debugValue!=5)
-	{
-		renderingDepth = 32;
-		debugValue=5;
-		debugValue2 = 2;
-		debugValue3 = 2;
-		debugValue4 = 1;
-		Recalculate();
-	}
-	if(keyCheck(KEY_6) && debugValue!=6)
-	{
-		renderingDepth = 32;
-		debugValue=6;
-		debugValue2 = 2;
-		debugValue3 = 2;
-		debugValue4 = 1;
-		Recalculate();
-	}
-	if(keyCheck(KEY_7) && debugValue!=7)
-	{
-		renderingDepth = 64;
-		debugValue=7;
-		debugValue2 = 7;
-		debugValue3 = 1;
-		debugValue4 = 0;
-		Recalculate();
-	}
+	// if(keyCheck(KEY_1) && debugValue!=1)
+	// {
+	// 	renderingDepth = 16;
+	// 	debugValue=1;
+	// 	debugValue2 = 1;
+	// 	debugValue3 = 10;
+	// 	debugValue4 = 2;
+	// 	Recalculate();
+	// }
+	// if(keyCheck(KEY_2) && debugValue!=2)
+	// {
+	// 	renderingDepth = 16;
+	// 	debugValue=2;
+	// 	debugValue2 = 1;
+	// 	debugValue3 = 10;
+	// 	debugValue4 = 2;
+	// 	Recalculate();
+	// }
+	// if(keyCheck(KEY_3) && debugValue!=3)
+	// {
+	// 	renderingDepth = 16;
+	// 	debugValue=3;
+	// 	debugValue2 = 1;
+	// 	debugValue3 = 10;
+	// 	debugValue4 = 2;
+	// 	Recalculate();
+	// }
+	// if(keyCheck(KEY_4) && debugValue!=4)
+	// {
+	// 	renderingDepth = 32;
+	// 	debugValue=4;
+	// 	debugValue2 = 2;
+	// 	debugValue3 = 2;
+	// 	debugValue4 = 1;
+	// 	Recalculate();
+	// }
+	// if(keyCheck(KEY_5) && debugValue!=5)
+	// {
+	// 	renderingDepth = 32;
+	// 	debugValue=5;
+	// 	debugValue2 = 2;
+	// 	debugValue3 = 2;
+	// 	debugValue4 = 1;
+	// 	Recalculate();
+	// }
+	// if(keyCheck(KEY_6) && debugValue!=6)
+	// {
+	// 	renderingDepth = 32;
+	// 	debugValue=6;
+	// 	debugValue2 = 2;
+	// 	debugValue3 = 2;
+	// 	debugValue4 = 1;
+	// 	Recalculate();
+	// }
+	// if(keyCheck(KEY_7) && debugValue!=7)
+	// {
+	// 	renderingDepth = 64;
+	// 	debugValue=7;
+	// 	debugValue2 = 7;
+	// 	debugValue3 = 1;
+	// 	debugValue4 = 0;
+	// 	Recalculate();
+	// }
 
 /*
 	if(keyCheck(KEY_Q)){debugValue2=1;Recalculate();}
