@@ -1,0 +1,1 @@
+docker run --rm --mount type=bind,source="//amiga_voxel_engine",target=/work -it amigadev/crosstools:m68k-amigaos bash

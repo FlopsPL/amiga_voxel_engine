@@ -182,167 +182,32 @@ ace/fast:
 	$(MAKE) -f ace/CMakeFiles/ace.dir/build.make ace/CMakeFiles/ace.dir/build
 .PHONY : ace/fast
 
-src/bitmap_filters.obj: src/bitmap_filters.c.obj
+src/Copper8x8_C2P.obj: src/Copper8x8_C2P.c.obj
 
-.PHONY : src/bitmap_filters.obj
-
-# target to build an object file
-src/bitmap_filters.c.obj:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/bitmap_filters.c.obj
-.PHONY : src/bitmap_filters.c.obj
-
-src/bitmap_filters.i: src/bitmap_filters.c.i
-
-.PHONY : src/bitmap_filters.i
-
-# target to preprocess a source file
-src/bitmap_filters.c.i:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/bitmap_filters.c.i
-.PHONY : src/bitmap_filters.c.i
-
-src/bitmap_filters.s: src/bitmap_filters.c.s
-
-.PHONY : src/bitmap_filters.s
-
-# target to generate assembly for a file
-src/bitmap_filters.c.s:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/bitmap_filters.c.s
-.PHONY : src/bitmap_filters.c.s
-
-src/dithering.obj: src/dithering.c.obj
-
-.PHONY : src/dithering.obj
+.PHONY : src/Copper8x8_C2P.obj
 
 # target to build an object file
-src/dithering.c.obj:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/dithering.c.obj
-.PHONY : src/dithering.c.obj
+src/Copper8x8_C2P.c.obj:
+	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/Copper8x8_C2P.c.obj
+.PHONY : src/Copper8x8_C2P.c.obj
 
-src/dithering.i: src/dithering.c.i
+src/Copper8x8_C2P.i: src/Copper8x8_C2P.c.i
 
-.PHONY : src/dithering.i
-
-# target to preprocess a source file
-src/dithering.c.i:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/dithering.c.i
-.PHONY : src/dithering.c.i
-
-src/dithering.s: src/dithering.c.s
-
-.PHONY : src/dithering.s
-
-# target to generate assembly for a file
-src/dithering.c.s:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/dithering.c.s
-.PHONY : src/dithering.c.s
-
-src/draw_maps.obj: src/draw_maps.c.obj
-
-.PHONY : src/draw_maps.obj
-
-# target to build an object file
-src/draw_maps.c.obj:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/draw_maps.c.obj
-.PHONY : src/draw_maps.c.obj
-
-src/draw_maps.i: src/draw_maps.c.i
-
-.PHONY : src/draw_maps.i
+.PHONY : src/Copper8x8_C2P.i
 
 # target to preprocess a source file
-src/draw_maps.c.i:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/draw_maps.c.i
-.PHONY : src/draw_maps.c.i
+src/Copper8x8_C2P.c.i:
+	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/Copper8x8_C2P.c.i
+.PHONY : src/Copper8x8_C2P.c.i
 
-src/draw_maps.s: src/draw_maps.c.s
+src/Copper8x8_C2P.s: src/Copper8x8_C2P.c.s
 
-.PHONY : src/draw_maps.s
-
-# target to generate assembly for a file
-src/draw_maps.c.s:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/draw_maps.c.s
-.PHONY : src/draw_maps.c.s
-
-src/draw_screen.obj: src/draw_screen.c.obj
-
-.PHONY : src/draw_screen.obj
-
-# target to build an object file
-src/draw_screen.c.obj:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/draw_screen.c.obj
-.PHONY : src/draw_screen.c.obj
-
-src/draw_screen.i: src/draw_screen.c.i
-
-.PHONY : src/draw_screen.i
-
-# target to preprocess a source file
-src/draw_screen.c.i:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/draw_screen.c.i
-.PHONY : src/draw_screen.c.i
-
-src/draw_screen.s: src/draw_screen.c.s
-
-.PHONY : src/draw_screen.s
+.PHONY : src/Copper8x8_C2P.s
 
 # target to generate assembly for a file
-src/draw_screen.c.s:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/draw_screen.c.s
-.PHONY : src/draw_screen.c.s
-
-src/draw_ships.obj: src/draw_ships.c.obj
-
-.PHONY : src/draw_ships.obj
-
-# target to build an object file
-src/draw_ships.c.obj:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/draw_ships.c.obj
-.PHONY : src/draw_ships.c.obj
-
-src/draw_ships.i: src/draw_ships.c.i
-
-.PHONY : src/draw_ships.i
-
-# target to preprocess a source file
-src/draw_ships.c.i:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/draw_ships.c.i
-.PHONY : src/draw_ships.c.i
-
-src/draw_ships.s: src/draw_ships.c.s
-
-.PHONY : src/draw_ships.s
-
-# target to generate assembly for a file
-src/draw_ships.c.s:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/draw_ships.c.s
-.PHONY : src/draw_ships.c.s
-
-src/file_read.obj: src/file_read.c.obj
-
-.PHONY : src/file_read.obj
-
-# target to build an object file
-src/file_read.c.obj:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/file_read.c.obj
-.PHONY : src/file_read.c.obj
-
-src/file_read.i: src/file_read.c.i
-
-.PHONY : src/file_read.i
-
-# target to preprocess a source file
-src/file_read.c.i:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/file_read.c.i
-.PHONY : src/file_read.c.i
-
-src/file_read.s: src/file_read.c.s
-
-.PHONY : src/file_read.s
-
-# target to generate assembly for a file
-src/file_read.c.s:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/file_read.c.s
-.PHONY : src/file_read.c.s
+src/Copper8x8_C2P.c.s:
+	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/Copper8x8_C2P.c.s
+.PHONY : src/Copper8x8_C2P.c.s
 
 src/main.obj: src/main.c.obj
 
@@ -371,60 +236,6 @@ src/main.c.s:
 	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/main.c.s
 .PHONY : src/main.c.s
 
-src/mipmaps.obj: src/mipmaps.c.obj
-
-.PHONY : src/mipmaps.obj
-
-# target to build an object file
-src/mipmaps.c.obj:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/mipmaps.c.obj
-.PHONY : src/mipmaps.c.obj
-
-src/mipmaps.i: src/mipmaps.c.i
-
-.PHONY : src/mipmaps.i
-
-# target to preprocess a source file
-src/mipmaps.c.i:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/mipmaps.c.i
-.PHONY : src/mipmaps.c.i
-
-src/mipmaps.s: src/mipmaps.c.s
-
-.PHONY : src/mipmaps.s
-
-# target to generate assembly for a file
-src/mipmaps.c.s:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/mipmaps.c.s
-.PHONY : src/mipmaps.c.s
-
-src/ray_casting.obj: src/ray_casting.c.obj
-
-.PHONY : src/ray_casting.obj
-
-# target to build an object file
-src/ray_casting.c.obj:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/ray_casting.c.obj
-.PHONY : src/ray_casting.c.obj
-
-src/ray_casting.i: src/ray_casting.c.i
-
-.PHONY : src/ray_casting.i
-
-# target to preprocess a source file
-src/ray_casting.c.i:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/ray_casting.c.i
-.PHONY : src/ray_casting.c.i
-
-src/ray_casting.s: src/ray_casting.c.s
-
-.PHONY : src/ray_casting.s
-
-# target to generate assembly for a file
-src/ray_casting.c.s:
-	$(MAKE) -f CMakeFiles/engine.exe.dir/build.make CMakeFiles/engine.exe.dir/src/ray_casting.c.s
-.PHONY : src/ray_casting.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -439,33 +250,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... install"
 	@echo "... ace"
-	@echo "... src/bitmap_filters.obj"
-	@echo "... src/bitmap_filters.i"
-	@echo "... src/bitmap_filters.s"
-	@echo "... src/dithering.obj"
-	@echo "... src/dithering.i"
-	@echo "... src/dithering.s"
-	@echo "... src/draw_maps.obj"
-	@echo "... src/draw_maps.i"
-	@echo "... src/draw_maps.s"
-	@echo "... src/draw_screen.obj"
-	@echo "... src/draw_screen.i"
-	@echo "... src/draw_screen.s"
-	@echo "... src/draw_ships.obj"
-	@echo "... src/draw_ships.i"
-	@echo "... src/draw_ships.s"
-	@echo "... src/file_read.obj"
-	@echo "... src/file_read.i"
-	@echo "... src/file_read.s"
+	@echo "... src/Copper8x8_C2P.obj"
+	@echo "... src/Copper8x8_C2P.i"
+	@echo "... src/Copper8x8_C2P.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/mipmaps.obj"
-	@echo "... src/mipmaps.i"
-	@echo "... src/mipmaps.s"
-	@echo "... src/ray_casting.obj"
-	@echo "... src/ray_casting.i"
-	@echo "... src/ray_casting.s"
 .PHONY : help
 
 
